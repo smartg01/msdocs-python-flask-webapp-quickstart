@@ -1,7 +1,11 @@
 name: Python application
 
 on:
-  workload_dispatch
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
 
 permissions:
       id-token: write
