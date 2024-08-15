@@ -1,7 +1,7 @@
 name: Python application
 
 on:
-  [push]
+  workload_dispatch
 
 permissions:
       id-token: write
